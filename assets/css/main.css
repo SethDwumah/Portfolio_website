@@ -73,6 +73,38 @@ input, select, textarea {
 	appearance: none;
 }
 
+
+.profile-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+  }
+  
+  .card-img {
+	max-width: 25%;
+	height: auto;
+	margin-bottom: 5px;
+  }
+  
+  .profile-name {
+	font-size: 1.5em;
+	font-weight: bold;
+	text-align: center;
+	color: rgb(247, 247, 250);
+	display: block;
+	margin-bottom: 5px;
+  }
+  
+  .profile-title {
+	font-size: 1.2em;
+	font-weight: bold;
+	color: rgb(250, 249, 249);
+	text-align: center;
+  }
+  
+
 /* Basic */
 
 	@-ms-viewport {
@@ -113,6 +145,9 @@ input, select, textarea {
 			-ms-transition: none !important;
 			transition: none !important;
 		}
+
+
+		
 
 /* Type */
 
@@ -3218,6 +3253,8 @@ input, select, textarea {
 
 /* Wrapper */
 
+     
+
 	#wrapper {
 		-moz-transition: opacity 0.5s ease;
 		-webkit-transition: opacity 0.5s ease;
@@ -4639,7 +4676,7 @@ input, select, textarea {
 			right: 0;
 			text-align: right;
 			top: 0;
-			vertical-align: middle;
+			
 			width: 7rem;
 		}
 
